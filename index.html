@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let diemVL;
+    let diemHH;
+    let diemSH;
+    let diemTong;
+    let diemTB;
+    diemVL = parseFloat(prompt("nhập điểm Vật Lý"));
+    diemHH = parseFloat(prompt("nhập điểm Hóa Học"));
+    diemSH = parseFloat(prompt("nhập điểm Sinh Học"));
+    diemTong = (diemVL + diemHH + diemSH);
+    diemTB = (diemVL + diemHH + diemSH) / 3;
+    document.write("điểm tổng  = " + diemTong+"<br>");
+    document.write("điểm trung bình  = " + diemTB);
+</script>
+</body>
+</html>
